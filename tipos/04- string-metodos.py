@@ -1,0 +1,11 @@
+animal = "   ceRDo feliz   "
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("rD"))
+print(animal.replace("RD", "ta"))
+print("RD" in animal)
+print("RD" not in animal)
